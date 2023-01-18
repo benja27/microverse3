@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+  }
+  
+  body{
+    margin: 0 auto;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  /* projects  */
+  
+  .header{
+    background-color: red;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+  }
+  
+  /*header  */
+  .header-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;  
+  }
+  
+  .header-content a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+    padding: 0.5rem;
+  }
+  
+  .header-content a:hover{
+    background-color: #45567d;
+  }
+  
+  /* hero  */
+  #welcome-section{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  #welcome-section h1{
+    font-size: 2rem;
+  }
+  #welcome-section i{
+    font-weight: ;
+  }
+  
+  /* list of project  */
+  
+  #projects{
+    max-width: 100%px;
+    display: flex;
+    justify-content: center;
+    background-color: #45567d;
+    padding: 2rem 4rem;
+    text-align: center;
+  }
+  
+  .project-container h2{
+    margin-top: 0;
+    color: white;
+    text-decoration: underline;
+    padding: 1rem;
+  }
+  
+  .project-container{
+    max-width: 900px;  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* grid  */
+  .list-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .list-projects article{
+    min-width: 250px;
+    max-width: 250px;
+    flex: 1 1 250px;
+    height: 250px;  
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #303841;
+    justify-content: space-evenly;
+    
+    color: white;
+  }
+  img{
+    object-fit: contain;
+  /*   max-width: 100%; */
+    max-height: 90%;
+    
+  }  
+  
+  .card p{
+    margin: 0;
+    padding: 0;
+  }
+  .botton-cont{
+    padding: 2rem 0;
+  }
+  .show-all{
+    width: 80px;
+    background-color: #303841 ;
+    color: white;
+    border: none;
+  }
+  
+  /* call to action */
+  
+  .call-to-action{
+    background-color: #303841;
+    height: 60vh ;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .call-title{
+    font-size: 2rem;
+  }
+  
+  .social-media{
+    display: flex;
+    gap: 1.2rem;
+    padding-top: 2rem;
+  }
+  
+  .social-media a {
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+  
+  /* footer  */
+  
+  footer{
+    background-color: #303841;
+    color: white;
+    
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    padding: 2rem;
+  }
